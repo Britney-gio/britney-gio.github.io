@@ -3,3 +3,31 @@
   padding:0;
   box-sizing: border-box;
 }
+
+.head {
+  position:fixed;
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  
+  img {
+    width: 150px;
+  }
+   
+  a {
+    text-decoration: none;
+    }
+
+  ul > li {
+    display: inline;
+    list-style-type:none;
+
+  }
+}
+
+
+body {
+  background-color: black;
+  height: 500px;
+}
