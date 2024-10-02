@@ -22,7 +22,14 @@
    
   a {
     text-decoration: none;
+    color:black;
     font-size: 20px;
+    padding: 15px;
+    margin: 1px;
+    &:hover {
+      color:rgb(226, 183, 128);
+      background-color: lighten(rgb(138, 44, 141),20);
+    }
 
     }
 

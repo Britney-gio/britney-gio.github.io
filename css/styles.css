@@ -19,7 +19,14 @@
 }
 .head a {
   text-decoration: none;
+  color: black;
   font-size: 20px;
+  padding: 15px;
+  margin: 1px;
+}
+.head a:hover {
+  color: rgb(226, 183, 128);
+  background-color: #c655ca;
 }
 .head ul > li {
   display: inline;
