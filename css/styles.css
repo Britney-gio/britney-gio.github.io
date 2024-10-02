@@ -8,18 +8,23 @@
   position: fixed;
   display: flex;
   width: 100%;
-  padding: 20px;
+  padding: 10px;
   background-color: white;
+  align-items: center;
+  justify-content: space-between;
 }
 .head img {
-  width: 150px;
+  width: 130px;
+  margin-left: 25px;
 }
 .head a {
   text-decoration: none;
+  font-size: 20px;
 }
 .head ul > li {
   display: inline;
   list-style-type: none;
+  padding: 15px;
 }
 
 body {
