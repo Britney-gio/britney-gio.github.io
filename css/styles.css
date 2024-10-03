@@ -12,14 +12,22 @@
   box-sizing: border-box;
 }
 
-.head {
+body {
   font-family: Libre Bodoni, sans-serif;
   font-size: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: auto;
+  gap: 10px;
+}
+
+.head {
+  grid-area: header;
   position: fixed;
   display: flex;
   width: 100%;
   padding: 10px;
-  background-color: white;
+  background-color: rgba(204, 173, 173, 0.116);
   align-items: center;
   justify-content: space-between;
 }
@@ -44,7 +52,6 @@
   padding: 15px;
 }
 
-body {
-  background-color: black;
-  height: 10000px;
+.title {
+  grid-area: main;
 }
