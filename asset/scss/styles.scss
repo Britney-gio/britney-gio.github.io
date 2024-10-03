@@ -1,4 +1,5 @@
 @import "_config";
+@import "font";
 
 *{
   margin:0;
@@ -27,8 +28,8 @@
     padding: 15px;
     margin: 1px;
     &:hover {
-      color:rgb(226, 183, 128);
-      background-color: lighten(rgb(138, 44, 141),20);
+      color: lighten(rgb(138, 44, 141),20);
+      font-weight: bold;
     }
 
     }
