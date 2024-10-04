@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 10px 30px 0 30px;
+  font-family: Libre Bodoni, sans-serif;
+  font-size: 18px;
+  background-color: rgb(255, 255, 255);
+}
+header img {
+  margin-left: 40px;
+}
+
+main {
+  font-family: Libre Bodoni, sans-serif;
+  height: 500px;
+}
+
+footer {
+  font-family: Libre Bodoni, sans-serif;
+}
+
+.nav {
+  justify-content: flex-end;
+  align-items: end;
+}
