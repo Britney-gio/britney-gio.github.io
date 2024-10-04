@@ -11,3 +11,9 @@
       font-weight: 600;
     }
 }
+
+body {
+  font-family: $font-stack;
+  font-size: $text-size;
+  height: 500px;
+}

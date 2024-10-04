@@ -8,19 +8,14 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: $font-stack;
-  font-size: $text-size;
-   
-}
+
 
 .head {
-  grid-area: header;
-  position:fixed;
   display: flex;
+  position: fixed;
   width: 100%;
   padding: 10px;
-  background-color: rgba(204, 173, 173, 0.116);
+  background-color: rgba(43, 19, 19, 0.116);
   align-items: center;
   justify-content: space-between;
     img {
@@ -36,10 +31,3 @@ body {
     padding: 15px;
   }
 }
-
-.title {
-  grid-area: main;
-}
-
-
-
