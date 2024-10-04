@@ -13,6 +13,18 @@ header {
 header img {
   margin-left: 40px;
 }
+header .nav :first-of-type {
+  background-color: #e0bcf0;
+  color: #000000;
+}
+header .nav :nth-child(2) {
+  background-color: #f9bff4;
+  color: #000000;
+}
+header .nav :last-of-type {
+  background-color: #fce5d7;
+  color: #000000;
+}
 
 main {
   font-family: Libre Bodoni, sans-serif;

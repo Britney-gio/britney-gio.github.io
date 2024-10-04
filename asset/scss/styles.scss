@@ -1,6 +1,7 @@
 @import "config";
 @import "font";
 @import "media-query";
+@import "color";
 
 *{ 
   box-sizing: border-box;
@@ -14,10 +15,32 @@ header {
   font-family: $font-stack;
   font-size: $text-size;
   background-color: rgb(255, 255, 255);
+
+
   
   img {
     margin-left: 40px;
   }
+
+  .nav :first-of-type {
+    background-color:lighten($secondary-color,40);
+    color: $primary-color;
+  
+  }
+
+  .nav :nth-child(2) {
+    background-color:lighten($fourth-color,40);
+    color: $primary-color;
+
+}
+  
+  .nav :last-of-type {
+      background-color:lighten($third-color,40);
+      color: $primary-color;
+
+  }
+  
+  
 
   
 }
