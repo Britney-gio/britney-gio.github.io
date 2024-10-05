@@ -15,8 +15,6 @@ header {
   font-family: $font-stack;
   font-size: $text-size;
   background-color: rgb(255, 255, 255);
-
-
   
   img {
     margin-left: 40px;
@@ -25,37 +23,39 @@ header {
   .nav :first-of-type {
     background-color:lighten($secondary-color,40);
     color: $primary-color;
-  
-  }
+   }
 
   .nav :nth-child(2) {
     background-color:lighten($fourth-color,40);
     color: $primary-color;
-
 }
   
   .nav :last-of-type {
       background-color:lighten($third-color,40);
       color: $primary-color;
-
   }
-  
-  
-
-  
-}
-
-main {
-  font-family: $font-stack;
-  height: 500px;
-}
-
-footer {
-  font-family: $font-stack;
 }
 
 .nav{
   justify-content: flex-end;
   align-items: end;
+}
 
+main {
+  font-family: $font-stack;
+
+  .background {
+    opacity: .8;
+    z-index: -1;
+  }  
+
+  .me {
+    background-color: red;
+  }
+
+}
+
+
+footer {
+  font-family: $font-stack;
 }
