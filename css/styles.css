@@ -25,12 +25,6 @@ header .nav :last-of-type {
   background-color: #fce5d7;
   color: #000000;
 }
-
-.nav {
-  justify-content: flex-end;
-  align-items: end;
-}
-
 main {
   font-family: Poppins, sans-serif;
 }
@@ -39,6 +33,8 @@ main .background {
   z-index: -1;
 }
 main .me {
+  display: block;
+  float: inline-end;
   background-color: red;
 }
 

@@ -34,11 +34,10 @@ header {
       background-color:lighten($third-color,40);
       color: $primary-color;
   }
-}
 
-.nav{
-  justify-content: flex-end;
-  align-items: end;
+  .navbar-right-section {
+    
+  }
 }
 
 main {
@@ -50,6 +49,8 @@ main {
   }  
 
   .me {
+    display: block;
+    float:inline-end;
     background-color: red;
   }
 
