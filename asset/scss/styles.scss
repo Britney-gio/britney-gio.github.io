@@ -37,20 +37,18 @@ header {
       align-items: center;
     } 
 
-    .navbar-right-section {
-      display: flex;
-      justify-content: space-between;
-      height: 100%;
-      transition: 0.5s;
-    }
-
     .social-icon {
       width: 75px;
       display: flex;
       justify-content: space-between;
     }
 
-
+    .navbar-right-section {
+      display: flex;
+      justify-content: space-between;
+      height: 100%;
+      transition: 0.5s;
+    } 
 
   }
   
@@ -73,10 +71,7 @@ header {
     margin-right: 5px;
     border-radius: 3%;
   }
-
 }
-
-
 
 main {
   font-family: $font-stack;
