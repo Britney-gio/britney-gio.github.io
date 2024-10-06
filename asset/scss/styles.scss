@@ -45,6 +45,20 @@ body {
   font-weight: 580;
 }
 
+.footer {
+  color: $primary-color;
+  background-color: rgb(255, 255,255);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: -115px;
+  right: 0;
+  left: 0;
+
+}
+
+
 
 
 @media(max-width: 991px) {
