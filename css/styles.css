@@ -1,3 +1,14 @@
 body {
   background: url(/asset/img/sfondo.jpg);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Poppins, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .sidebar {
+    background-color: rgb(255, 255, 255);
+  }
 }

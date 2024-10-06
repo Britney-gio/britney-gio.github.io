@@ -25,7 +25,57 @@
   </head>
 
   <body class="vh-100 overflow-hidden">
-  
+
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg bg-white text-dark fixed-top">
+      <div class="container p-20">
+
+            <!--logo-->
+        <a class="navbar-brand" href="#">
+          <img src="/asset/img/GN.jpg" width="120" alt="logo-gn" >
+        </a>
+
+        <!--toogle btn-->
+        <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--side bar-->
+        <div class="sidebar offcanvas offcanvas-end" 
+          tabindex="-1" id="offcanvasNavbar" 
+          aria-labelledby="offcanvasNavbarLabel">
+
+          <!--side bar header-->
+          <div class="offcanvas-header text-dark border-bottom">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Giorgia Nieli web Site</h5>
+            <button type="button" 
+              class="btn-close btn-close-dark shadow-none" 
+              data-bs-dismiss="offcanvas" 
+              aria-label="Close"></button>
+          </div>
+
+          <!--side bar body-->
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item mx-5">
+              <a class="nav-link" href="#">About Me</a>
+              </li>
+              <li class="nav-item mx-5">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item mx-5">
+                <a class="nav-link" href="#">Contatti</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="w-100 vh-100 d-flex flex-column justify-content-center
+    align-items-center text-white fs-1">
+      <h1>Benvenuti nel mio sito</h1>
   </body>
 
 </html>
