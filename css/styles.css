@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background: url(/asset/img/sfondo.jpg);
   background-blend-mode: multiply;
@@ -5,6 +11,36 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   font-family: Poppins, sans-serif;
+}
+
+.nav-link1 {
+  background-color: #e0bcf0;
+  color: #000000;
+  width: 120px;
+  border-radius: 5%;
+  text-align: center;
+  padding: 8px;
+  font-weight: 580;
+}
+
+.nav-link2 {
+  background-color: #fcfbd1;
+  color: #000000;
+  width: 120px;
+  border-radius: 5%;
+  text-align: center;
+  padding: 8px;
+  font-weight: 580;
+}
+
+.nav-link3 {
+  background-color: #fce5d7;
+  color: #000000;
+  width: 120px;
+  border-radius: 5%;
+  text-align: center;
+  padding: 8px;
+  font-weight: 580;
 }
 
 @media (max-width: 991px) {

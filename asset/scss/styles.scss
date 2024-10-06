@@ -1,5 +1,11 @@
 @import "config" ;
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background : url(/asset/img/sfondo.jpg);
   background-blend-mode: multiply;
@@ -8,6 +14,38 @@ body {
   background-repeat: no-repeat;
   font-family: $font-stack;
 }
+
+.nav-link1 {
+  background-color:lighten($secondary-color,40);
+  color: $primary-color;
+  width: 120px;
+  border-radius: 5%;
+  text-align: center;
+  padding: 8px;
+  font-weight: 580;
+ }
+
+.nav-link2 {
+  background-color:lighten($fourth-color,40);
+  color: $primary-color;
+  width: 120px;
+  border-radius: 5%;
+  text-align: center;
+  padding: 8px;
+    font-weight: 580;
+}
+
+.nav-link3 {
+  background-color:lighten($third-color,40);
+  color: $primary-color;
+  width: 120px;
+  border-radius: 5%;
+  text-align: center;
+  padding: 8px;
+  font-weight: 580;
+}
+
+
 
 @media(max-width: 991px) {
   .sidebar {
