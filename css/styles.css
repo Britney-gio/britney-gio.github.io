@@ -12,9 +12,12 @@ body {
   background-repeat: no-repeat;
   font-family: Poppins, sans-serif;
 }
-body a, body a:hover, body a:visited, body a:active, body a:focus {
+body a, body a:hover, body a:visited, body a:active {
   color: black;
   text-decoration: none;
+}
+body a:active {
+  background-color: black;
 }
 
 .nav-link1 {
