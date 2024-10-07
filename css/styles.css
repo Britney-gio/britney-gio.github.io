@@ -62,6 +62,30 @@ body a:active {
   left: 0;
 }
 
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.row button {
+  background-color: #f06717;
+  color: #000000;
+  width: 120px;
+  border-radius: 5%;
+  text-align: center;
+  padding: 8px;
+  font-weight: 580;
+}
+
+strong {
+  color: #f0ec11;
+}
+
+h1 {
+  color: #8a28b8;
+}
+
 @media (max-width: 991px) {
   .sidebar {
     background-color: rgb(255, 255, 255);
