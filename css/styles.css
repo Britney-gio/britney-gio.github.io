@@ -51,15 +51,15 @@ body a:active {
 }
 
 .footer {
+  height: 100px;
   color: #000000;
   background-color: rgb(255, 255, 255);
   align-items: center;
+  justify-content: center;
   display: flex;
   flex-direction: column;
-  position: absolute;
-  bottom: -115px;
-  right: 0;
-  left: 0;
+  position: relative;
+  bottom: 0;
 }
 
 .row {
@@ -84,6 +84,7 @@ strong {
 
 h1 {
   color: #8a28b8;
+  margin-top: 50px;
 }
 
 @media (max-width: 991px) {
