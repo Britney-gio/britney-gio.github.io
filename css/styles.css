@@ -83,8 +83,20 @@ strong {
 }
 
 h1 {
-  color: #8a28b8;
+  color: #cc92e7;
   margin-top: 50px;
+}
+
+.text-col {
+  color: #f6f471;
+}
+
+.text-col2 {
+  color: #f5965f;
+}
+
+.profile-text {
+  line-height: 30px;
 }
 
 @media (max-width: 991px) {

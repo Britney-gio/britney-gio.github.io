@@ -94,8 +94,22 @@ strong {
 }
 
 h1 {
-  color: $secondary-color;
+  color: lighten($secondary-color,30);
   margin-top: 50px;
+}
+
+.text-col {
+  color: lighten($fourth-color,20);
+}
+
+.text-col2 {
+  color: lighten($third-color,15);
+  
+}
+
+.profile-text {
+  line-height: 30px;
+
 }
 
 
