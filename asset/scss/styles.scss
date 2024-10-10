@@ -13,6 +13,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   font-family: $font-stack;
+  height: 100%;
+  width: 100%;
 
 
   a, a:hover, a:visited, a:active {
@@ -119,6 +121,13 @@ h1 {
    
 }
 
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
 
 
 
@@ -133,5 +142,9 @@ h1 {
   @media(min-width: 425px) {
     .row {
       width: 600px;
+    }
+
+    .carousel-item {
+      width: 500px;
     }
   }
