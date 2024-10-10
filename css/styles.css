@@ -66,14 +66,16 @@ body a:active {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10px;
+  margin-bottom: 1px;
+  height: fit-content;
+  padding: 1px;
+  width: 200px;
 }
 .row button {
   background-color: #f06717;
   color: #000000;
   width: 120px;
   border-radius: 5%;
-  text-align: center;
   padding: 8px;
   font-weight: 580;
 }
@@ -84,7 +86,7 @@ strong {
 
 h1 {
   color: #cc92e7;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 
 .text-col {
@@ -99,8 +101,17 @@ h1 {
   line-height: 30px;
 }
 
+.blockquote, .blockquote-footer {
+  background-color: #333333;
+}
+
 @media (max-width: 991px) {
   .sidebar {
     background-color: rgb(255, 255, 255);
+  }
+}
+@media (min-width: 425px) {
+  .row {
+    width: 600px;
   }
 }
