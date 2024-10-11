@@ -73,7 +73,8 @@ body a:active {
   padding: 1px;
   width: 200px;
 }
-.row-content button {
+
+button, .btn-slide {
   background-color: #f06717;
   color: #000000;
   width: 120px;

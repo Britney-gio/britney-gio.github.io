@@ -46,7 +46,7 @@ body {
   border-radius: 5%;
   text-align: center;
   padding: 8px;
-    font-weight: 580;
+  font-weight: 580;
 }
 
 .nav-link3 {
@@ -81,8 +81,9 @@ body {
   height: fit-content;
   padding: 1px;
   width:200px;
+}
 
-  button {
+  button, .btn-slide {
   background-color: $third-color;
   color: $primary-color;
   width: 120px;
@@ -91,7 +92,7 @@ body {
   font-weight: 580;
   }
   
-}
+
 
 strong {
   color: $fourth-color;
