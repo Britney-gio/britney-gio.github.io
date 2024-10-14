@@ -8,30 +8,44 @@
 
     <title>Giorgia Nieli Web Site</title>
 
+    <!--Favicon-->
     <link rel="shortcut icon" type="image/x-icon" href="/asset/img/GN.jpg">
 
+    <!--Importazione del Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
       rel="stylesheet">
 
+    <!--Importazione Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!--Collegamento al foglio di stile-->
     <link rel="stylesheet" href="/css/styles.css">
 
+    <!--Tag SEO-->
+    <meta name="description" content="Pagina personale e professionale di Nieli Giorgia aspirante Blockchain Developer">
 
-    <meta name="description" content="Ecco la mia pagina personale, sono Nieli Giorgia aspirante Blockchain Developer">
+    <!--Tag OG-->
+    <meta property="og:title" content="Pagina personale di Giorgia Nieli">
+    <meta property="og:description" content="Scopri la mia pagina web, il mio portfolio e le mie competenze.">
+    <meta property="og:image" content img src="/asset/img/htmll-personal-page.png">
+    <meta property="og:url" content="#">
+    <meta property="og:type" content="website">
 
   </head>
 
   <body>
 
+    <!--Intestazione-->
   <header>
-    <!--navbar-->
+
+    <!--Navbar-->
     <nav class="navbar navbar-expand-lg bg-white text-dark fixed-top">
       <div class="container p-20">
 
-        <!--logo-->
+        <!--Icone social-->
         <a class="navbar-brand" href="index.html">
           <img src="/asset/img/GN.jpg" width="120" alt="logo-gn" title="Home" >
         </a>
@@ -40,26 +54,26 @@
             <img src="/asset/icon/github.svg" 
               width="25" 
               alt="github-GN" 
-              style="margin-right: 5px;"
+              style="margin-right:5px;"
               title="github-GN">
           </a>
           <a href="https://www.instagram.com/britney_gio/" target="_blank">
             <img src="/asset/icon/instagram.svg" 
               width="25" 
               alt="instagram-gn"
-              style="margin-right: 5px"
+              style="margin-right:5px"
               title="Inatagram-GN">
           </a>
           <a href="https://www.linkedin.com/in/giorgia-nieli-98b0882b0/" target="_blank">
             <img src="/asset/icon/linkedin.svg" 
               width="25" 
               alt="linkedin-gn"
-              style="margin-right: 5px"
+              style="margin-right:5px"
               title="Linkedin-gn">
           </a>
         </div>
 
-        <!--toogle btn-->
+        <!--Toogle btn-->
         <button class="navbar-toggler shadow-none border-0" 
           type="button" 
           data-bs-toggle="offcanvas" 
@@ -68,120 +82,129 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <!--side bar-->
+        <!--Side bar-->
         <div class="sidebar offcanvas offcanvas-end" 
-          tabindex="-1" id="offcanvasNavbar" 
+          tabindex="-1"
+          id="offcanvasNavbar" 
           aria-labelledby="offcanvasNavbarLabel">
 
-          <!--side bar header-->
+          <!--Side bar header-->
           <div class="offcanvas-header text-dark border-bottom">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Giorgia Nieli web Site</h5>
+            <h5 class="offcanvas-title" 
+                id="offcanvasNavbarLabel">Giorgia Nieli web Site
+            </h5>
             <button type="button" 
               class="btn-close btn-close-dark shadow-none" 
               data-bs-dismiss="offcanvas" 
-              aria-label="Close"></button>
+              aria-label="Close">
+            </button>
           </div>
 
-          <!--side bar body-->
+          <!--Side bar body-->
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-
               <li class="nav-item mx-3 my-2">
-              <a class="nav-link nav-link1" href="#aboutme">About Me</a>
+                <a class="nav-link nav-link1" 
+                  href="#aboutme">About Me
+                </a>
               </li>
               <li class="nav-item mx-3 my-2">
-                <a class="nav-link nav-link2" href="#portfolio">Portfolio</a>
+                <a class="nav-link nav-link2"
+                  href="#portfolio">Portfolio
+                </a>
               </li>
               <li class="nav-item mx-3 my-2">
-                <a class="nav-link nav-link3" href="contact.html">Contatti</a>
+                <a class="nav-link nav-link3" 
+                  href="contact.html">Contatti
+                </a>
               </li>
-
             </ul>
-            
           </div>
         </div>
       </div>
     </nav>
   </header>
 
-    <main class="container d-flex flex-column 
-    justify-content-center align-items-center ">
-
-      <div class="row">
-        <div class="col-12 text-center mt-5">
-      <h1>Benvenuti nel mio sito</h1>
+  <!--Contenuto principale-->
+  <main class="container d-flex flex-column justify-content-center align-items-center">
+    <div class="row">
+      <div class="col-12 text-center mt-5">
+        <h1>Benvenuti nel sito personale e professionale di Nieli Giorgia</h1>
       </div>
-      </div>
-     
-      <div class="row">
+    </div>
+    <div class="row">
       <div class="col-6 mt-5">
-        <p class="profile-header text-white text-end fs-3">Mi presento,<br> 
-        sono Nieli Giorgia <br> aspirante 
-        <span class="text-col"> Blockchain developer...
-        </span>
+        <p class="profile-header text-white text-end fs-3">Mi presento,<br>sono Nieli Giorgia<br>aspirante 
+          <span class="text-col"> Blockchain developer...
+          </span>
         </p>
       </div>
       <div class="col-6 mt-3">
-      <img src="/asset/img/foto-profilo.jpeg" 
-          class="img-fluid rounded-circle float-start profile-img" 
-          alt="Foto-profilo-GN"
-          title="Foto-profilo-GN">
+        <img src="/asset/img/foto-profilo.jpeg" 
+            class="img-fluid rounded-circle float-start profile-img" 
+            alt="Foto-profilo-GN"
+            title="Foto profilo Niel Giorgia">
       </div>
-      </div>
-     
-      
-      <div class="row">
-      <div class="col-12 mt-5">
-     
-        
+    </div>
+    <div class="row">
+      <div class="col-12 mt-5"> 
+
+        <!--Storia p.1--> 
         <p class="profile-text text-white text-center">
           <a name="aboutme">
-          <span class="text-col2 fs-4">Un pò di me</span></a>
+            <span class="text-col2 fs-4">Un pò di me</span>
+          </a>
           <br>
-        Da sempre curiosa del mondo digitale sin da piccola con il mio primo Pc navigavo tra i vari
-        fogli excel, word e pagine Paint. Crescendo ho capito che il digitale, in qualche modo,
-        avrebbe influenzato il mio futuro. Mi diplomo in Sistemi informativi aziendali presso 
-        l'istituto tecnico della mia città, Siracusa.
-        Alla fine degli studi inizio a lavorare presso uno showroom di infissi (mio lavoro attuale),
-        ironia della sorte, l'excel fa parte del mio lavoro quotidiano, sin da subito ho sviluppato dei
-        fogli di lavoro utilissimi all'attività di preventivazione e gestione della ditta in cui lavoro MA...
-      </p> 
+          Da sempre curiosa del mondo digitale sin da piccola con il mio primo Pc navigavo tra i vari
+          fogli excel, word e pagine Paint. Crescendo ho capito che il digitale, in qualche modo,
+          avrebbe influenzato il mio futuro. Mi diplomo in Sistemi informativi aziendali presso 
+          l'istituto tecnico della mia città, Siracusa.
+          Alla fine degli studi inizio a lavorare presso uno showroom di infissi (mio lavoro attuale),
+          ironia della sorte, l'excel fa parte del mio lavoro quotidiano, sin da subito ho sviluppato dei
+          fogli di lavoro utilissimi all'attività di preventivazione e gestione della ditta in cui lavoro MA...
+        </p> 
 
+        <!--Citazione-->
         <figure class="text-center text-white">
           <blockquote class="blockquote">
-            <p>&ldquo;Continua a piantare i tuoi semi, perché non saprai mai quali cresceranno - forse lo faranno tutti.&rdquo;</p>
+            <p>&ldquo;Continua a piantare i tuoi semi, perché non saprai mai quali cresceranno - forse lo  faranno tutti.&rdquo;
+            </p>
           </blockquote>
-          <figcaption class="blockquote-footer text-white">
-            Albert Einstein
+          <figcaption class="blockquote-footer text-white">Albert Einstein
           </figcaption>
         </figure>
-        
-        <p class="profile-text text-white text-center">
-        L'ambizione, la perseveranza e la dedizione sono parte di me e tra le ore di lavoro e lo sport (mia grande passione)
-        a Gennaio 2024 decido di iniziare un nuovo percorso di studio, il master Blockchain Developer alla Start to Impact University.
-        Attratta dalla potenzialità della Blockchain e delle sue possibili applicazioni ho deciso di sostenere e 
-        imparare sempre più su questo "mondo", certa del fatto che la Blockchain è il futuro.
-      </p>
-     </div>
-      </div>
 
-      <div class="row mb-5 mt-3 justify-content-center">
-        <a class="btn nav-link1" 
+        <!--Storia p.2-->
+        <p class="profile-text text-white text-center">
+          L'ambizione, la perseveranza e la dedizione sono parte di me e tra le ore di lavoro e lo sport (mia grande passione)
+          a Gennaio 2024 decido di iniziare un nuovo percorso di studio, il master Blockchain Developer alla Start to Impact University.
+          Attratta dalla potenzialità della Blockchain e delle sue possibili applicazioni ho deciso di sostenere e 
+          imparare sempre più su questo "mondo", certa del fatto che la Blockchain è il futuro.
+        </p>
+     </div>
+    </div>
+
+        <!--Tasto download curriculum-->
+        <div class="row mb-5 mt-3 justify-content-center">
+          <a class="btn nav-link1" 
             href="/asset/prog/cv-nieli.pdf" 
             target="_blank"
             role="button"
             style="width: fit-content"
-            title="Download-my-Curriculum">Download CV
-       </a>
-      </div>
-    </main>
+            title="Scarica il mio curriculum!">Download CV
+          </a>
+        </div>
+  </main>
 
-    <section class="portfolio">
-      <a name="portfolio">
+  <!--Sezione Portfolio-->
+  <section class="portfolio">
+    <a name="portfolio">
       <h2>Ecco il mio Portfolio</h2>
-
+      
+      <!--Carosello progetti-->
       <div id="carousel-portfolio" class="carousel pb-5" data-bs-ride="false">
-        
+
+        <!--Indicatori inferiori Carosello-->
         <div class="carousel-indicators">
           <button type="button" 
                   data-bs-target="#carousel-portfolio" 
@@ -190,113 +213,138 @@
                   aria-current="true" 
                   aria-label="Slide 1">
           </button>
-          <button type="button" data-bs-target="#carousel-portfolio" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carousel-portfolio" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carousel-portfolio" data-bs-slide-to="3" aria-label="Slide 4"></button>
-          <button type="button" data-bs-target="#carousel-portfolio" data-bs-slide-to="4" aria-label="Slide 5"></button>
-          <button type="button" data-bs-target="#carousel-portfolio" data-bs-slide-to="5" aria-label="Slide 6"></button>
-          <button type="button" data-bs-target="#carousel-portfolio" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" 
+                  data-bs-target="#carousel-portfolio" 
+                  data-bs-slide-to="1" 
+                  aria-label="Slide 2">
+          </button>
+          <button type="button"
+                  data-bs-target="#carousel-portfolio" 
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3">
+          </button>
+          <button type="button"
+                  data-bs-target="#carousel-portfolio"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4">
+          </button>
+          <button type="button" 
+                  data-bs-target="#carousel-portfolio" 
+                  data-bs-slide-to="4" 
+                  aria-label="Slide 5">
+          </button>
+          <button type="button" 
+                  data-bs-target="#carousel-portfolio" 
+                  data-bs-slide-to="5" 
+                  aria-label="Slide 6">
+          </button>
+          <button type="button" 
+                  data-bs-target="#carousel-portfolio" 
+                  data-bs-slide-to="6" 
+                  aria-label="Slide 7">
+          </button>
         </div>
 
-        <div class="carousel-inner">
-          <div class="card carousel-item active" style="width: 20rem">
-            <img src="/asset/img/Introduzione_alla_Blockchain_Certificato.png" 
-                 class="card-img-top" 
-                 alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Certificato corso superato &ldquo;Introduzione alla blockchain&rdquo;</h5>
-                <p class="card-text">Presso Start to impact University</p>
-              </div>
+        <!--Slide carosello-->
+        <div class="card carousel-item active" 
+             style="width: 20rem">
+          <img src="/asset/img/Introduzione_alla_Blockchain_Certificato.png" 
+               class="card-img-top" 
+               alt="Attestato test superato Introduzione alla blockchain"
+               title="Attestato test superato Introduzione alla blockchain">
+          <div class="card-body">
+            <h5 class="card-title">Certificato corso superato &ldquo;Introduzione alla blockchain&rdquo;</h5>
+            <p class="card-text">Presso Start to impact University</p>
           </div>
         </div>
-
-        <div class="carousel-inner">
-          <div class="carousel-item card" style="width: 20rem">
-              <img src="/asset/img/Blockchain_Certificato.png" 
-                   class="card-img-top" 
-                   alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Certificato corso superato &ldquo;Blockchain&rdquo;</h5>
-                  <p class="card-text">Presso Start to impact University</p>
-                </div>
-            </div>
+        <div class="carousel-item card" 
+             style="width: 20rem">
+          <img src="/asset/img/Blockchain_Certificato.png" 
+               class="card-img-top" 
+               alt="Attestato Test superato Blockchain"
+               title="Attestato test superato Blockchain">
+          <div class="card-body">
+            <h5 class="card-title">Certificato corso superato &ldquo;Blockchain&rdquo;</h5>
+            <p class="card-text">Presso Start to impact University</p>
           </div>
-          
-
-          <div class="carousel-inner">
-            <div class="carousel-item card" style="width: 20rem">
-              <img src="/asset/img/Ethereum_Certificato.png" 
-                   class="card-img-top" 
-                   alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Certificato corso superato &ldquo;Ethereum&rdquo;</h5>
-                  <p class="card-text">Presso Start to impact University</p>
-                </div>
-            </div>
+        </div>
+        <div class="carousel-item card" 
+             style="width: 20rem">
+          <img src="/asset/img/Ethereum_Certificato.png" 
+               class="card-img-top" 
+               alt="Attestato Test superato Ethereum"
+               title="Attestato test superato Ethereum">
+          <div class="card-body">
+            <h5 class="card-title">Certificato corso superato &ldquo;Ethereum&rdquo;</h5>
+            <p class="card-text">Presso Start to impact University</p>
           </div>
-          
-          <div class="carousel-inner">
-          <div class="carousel-item card" style="width: 20rem">
-              <img src="/asset/img/HTML_e_CSS_Certificato.png" 
-                   class="card-img-top" 
-                   alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Certificato corso superato &ldquo;HTML e CSS&rdquo;</h5>
-                  <p class="card-text">Presso Start to impact University</p>
-                </div>
+        </div>
+        <div class="carousel-item card" 
+             style="width: 20rem">
+          <img src="/asset/img/HTML_e_CSS_Certificato.png" 
+               class="card-img-top" 
+               alt="Attestato Test superato HTML e CSS"
+               title="Attestato Test superato HTML e CSS">
+           <div class="card-body">
+              <h5 class="card-title">Certificato corso superato &ldquo;HTML e CSS&rdquo;</h5>
+              <p class="card-text">Presso Start to impact University</p>
             </div>
+        </div>
+        <div class="carousel-item card" 
+             style="width: 20rem">
+          <img src="/asset/img/smart-contract-creation.png" 
+               class="card-img-top" 
+               alt="Copertina progetto Happy Found"
+               title="Copertina progetto Happy Found">
+          <div class="card-body">
+            <h5 class="card-title">Smart Contract <br> &ldquo;Happy Found&rdquo;</h5>
+            <p class="card-text">Primo progetto pratico svolto alla Start to impact University, si tratta della creazione di uno smart contract con il linguaggio Solidity, destinato ad una società benefica al fine di una raccolta fondi.
+            </p>
+            <a href="/asset/prog/Presentazione HappyFound.pdf.pdf" 
+               class="btn btn-slide" 
+               target="_blank"
+               title="Esplora il progetto qui">Info
+            </a>
           </div>
-
-          <div class="carousel-inner">
-            <div class="carousel-item card" style="width: 20rem">
-              <img src="/asset/img/smart-contract-creation.png" 
-                   class="card-img-top" 
-                   alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Smart Contract <br> &ldquo;Happy Found&rdquo;</h5>
-                  <p class="card-text">Primo progetto pratico svolto alla Start to impact University, si tratta della creazione di uno smart contract con il linguaggio Solidity, destinato ad una società benefica al fine di una raccolta fondi.
-                  </p>
-                  <a href="/asset/prog/Presentazione HappyFound.pdf.pdf" 
-                     class="btn btn-slide" 
-                     target="_blank">Info</a>
-                </div>
-            </div>
+        </div>
+        <div class="carousel-item card" 
+            style="width: 20rem">
+          <img src="/asset/img/ethereum-info.png" 
+               class="card-img-top" 
+               alt="Copertina approfondimento Ethereum"
+               title="Copertina approfondimento Ethereum">
+          <div class="card-body">
+            <h5 class="card-title">Approfondimento Ethereum</h5>
+            <p class="card-text">Secondo progetto pratico svolto alla Start to impact University,
+             si tratta di un approfondimento dei principali protocolli su Ethereum per un&rsquo;ipotetica
+             agenzia di viaggi.
+            </p>
+            <a href="/asset/prog/Progetto Ethereum di Giorgia Nieli.pdf" 
+               class="btn btn-slide" 
+               target="_blank"
+               title="Leggi qui il mio approfondimento">Info
+            </a>
           </div>
-          
-          <div class="carousel-inner">
-            <div class="carousel-item card" style="width: 20rem">
-              <img src="/asset/img/ethereum-info.png" 
-                   class="card-img-top" 
-                   alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Approfondimento Ethereum</h5>
-                  <p class="card-text">Secondo progetto pratico svolto alla Start to impact University,
-                    si tratta di un approfondimento dei principali protocolli su Ethereum per un&rsquo;ipotetica
-                    agenzia di viaggi.</p>
-                  <a href="/asset/prog/Progetto Ethereum di Giorgia Nieli.pdf" 
-                     class="btn btn-slide" 
-                     target="_blank">Info</a>
-                </div>
-            </div>
+        </div>
+        <div class="carousel-item card" 
+             style="width: 20rem">
+          <img src="/asset/img/htmll-personal-page.png" 
+               class="card-img-top" 
+               alt="Copertina sito Nieli Giorgia"
+               title="Copertina sito Nieli Giorgia">
+          <div class="card-body">
+            <h5 class="card-title">Creazione pagina personale</h5>
+            <p class="card-text">Altro progetto pratico svolto alla Start to impact University,
+             si tratta della creazione della propria pagina web con i linguaggi HTML e CSS.
+            </p>
+            <a href="index.html" 
+               class="btn btn-slide" 
+               target="_blank"
+               title="Visita il sito qui">Info</a>
           </div>
-
-          <div class="carousel-inner">
-            <div class="carousel-item card" style="width: 20rem">
-              <img src="/asset/img/htmll-personal-page.png" 
-                   class="card-img-top" 
-                   alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Creazione pagina personale</h5>
-                  <p class="card-text">Altro progetto pratico svolto alla Start to impact University,
-                    si tratta della creazione della propria pagina web con i linguaggi HTML e CSS.</p>
-                  <a href="index.html" 
-                     class="btn btn-slide" 
-                     target="_blank">Info</a>
-                </div>
-            </div>
-          </div>
-         
-
+        </div>
+        <!--Indicatori laterali Carosello-->
+        
         <button class="carousel-control-prev" 
                 type="button" 
                 data-bs-target="#carousel-portfolio" 
@@ -307,50 +355,47 @@
           <span class="visually-hidden">Previous
           </span>
         </button>
-
         <button class="carousel-control-next" 
                 type="button" 
                 data-bs-target="#carousel-portfolio" 
                 data-bs-slide="next">
           <span class="carousel-control-next-icon" 
-          aria-hidden="true">
+                aria-hidden="true">
           </span>
           <span class="visually-hidden">Next
           </span>
         </button>
-
-      </div>
       </a>
-    </div>
+  </section>
 
-
-    </section>
-  
-
-      <footer class="footer footer-expand-lg bg-white text-dark text">
+  <!--Piè di pagina-->
+  <footer class="footer footer-expand-lg bg-white text-dark text">
     <div class="social-icon d-flex" > 
-      <a href="https://github.com/Britney-gio" target="_blank">
+      <a href="https://github.com/Britney-gio" 
+         target="_blank">
         <img class="footer-icon"
-          src="/asset/icon/github.svg" 
-          width="25" 
-          alt="github-GN" 
-          style="margin-right: 5px"
-          title="Github-GN">
+             src="/asset/icon/github.svg" 
+             width="25" 
+             alt="github-GN" 
+             style="margin-right: 5px"
+             title="Github-GN">
       </a>
-      <a href="https://www.instagram.com/britney_gio/" target="_blank">
+      <a href="https://www.instagram.com/britney_gio/" 
+         target="_blank">
         <img class="footer-icon"
-          src="/asset/icon/instagram.svg" 
-          width="25" 
-          alt="instagram-gn"
-          style="margin-right: 5px"
-          title="Inatagram-GN">
+             src="/asset/icon/instagram.svg" 
+             width="25" 
+             alt="instagram-gn"
+             style="margin-right: 5px"
+             title="Inatagram-GN">
       </a>
-      <a href="https://www.linkedin.com/in/giorgia-nieli-98b0882b0/" target="_blank">
+      <a href="https://www.linkedin.com/in/giorgia-nieli-98b0882b0/" 
+         target="_blank">
         <img class="footer-icon"
-          src="/asset/icon/linkedin.svg" 
-          alt="linkedin-gn"
-          style="margin-right: 5px"
-          title="Linkedin-GN">
+             src="/asset/icon/linkedin.svg" 
+             alt="linkedin-gn"
+             style="margin-right: 5px"
+             title="Linkedin-GN">
       </a>
     </div>
     <div class="copyright my-1 text-center">
@@ -359,5 +404,5 @@
   </div>
   </footer>
 
-</body>
+  </body>
 </html>
