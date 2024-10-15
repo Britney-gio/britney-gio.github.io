@@ -23,11 +23,10 @@ body {
   
   &:active {
     background-color: black;
+    color: white;
   }
  }
 }
-
-
 
 .nav-link1 {
   background-color:lighten($secondary-color,40);
@@ -37,7 +36,7 @@ body {
   text-align: center;
   padding: 8px;
   font-weight: 580;
- }
+}
 
 .nav-link2 {
   @extend .nav-link1;
@@ -85,7 +84,7 @@ strong {
   color: $fourth-color;
 }
 
-button {
+button, .button {
   background-color: $third-color;
   color: $primary-color;
   width: 120px;
@@ -110,12 +109,11 @@ button {
 @media(max-width: 991px) {
   .sidebar {
     background-color: rgba(255,255,255);
-    }
-
   }
+}
 
-  @media(min-width: 768px) {
-    .row {
+@media(min-width: 768px) {
+  .row {
       width: 600px;
-    }
   }
+}
