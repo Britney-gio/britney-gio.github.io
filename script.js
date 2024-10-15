@@ -8,6 +8,4 @@ function sendMail (){
     }
 
     emailjs.send("service_xfkznvd","template_6focxw9",parms).then(alert("Mail Inviata!!"))
-
-
 }
