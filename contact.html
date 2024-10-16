@@ -87,51 +87,42 @@
 
         <!--Form di contatto-->
         <div class="contact-body">
-          <form action="" 
+          <form action="https://api.web3forms.com/submit" 
                 method="post" 
                 class="contact-form">
+            <input type="hidden" 
+                    name="access_key" 
+                    value="ec439828-5890-4a26-83cf-e1540eef3a31">
             <div class="row">
-              <input type="nome" 
-                     id="nome"
+              <input type="text"
                      name="nome" 
                      placeholder="Nome"
                      class="contact-inputs my-1" 
                      required>
             </div>
             <div class="row">
-              <input type="cognome"
-                     id="cognome"
+              <input type="text"
                      name="cognome" 
                      placeholder="Cognome" 
                      class="contact-inputs my-1" 
                      required>
             </div>
             <div class="row">
-              <input type="mail" 
-                     id="mail"
+              <input type="mail"
                      name="mail" 
                      placeholder="Mail" 
                      class="contact-inputs my-1" 
                      required>
             </div>
             <div class="row">
-              <input type="oggetto" 
-                     id="oggetto"
-                     name="oggetto" 
-                     placeholder="Oggetto Mail" 
-                     class="contact-inputs my-1" 
-                     required>
-            </div>
-            <div class="row">
-              <textarea name="messaggio" 
-                        id="messaggio"
+              <textarea name="messaggio"
                         placeholder="Scrivi il tuo messaggio qui" 
                         class="contact-inputs my-1"
                         rows="8" 
                         required></textarea>
             </div>
             <div class="row my-5">
-              <button type="submit" onclick="sendMail()">INVIA</button>
+              <button type="submit">INVIA</button>
             </div>
           </form>
         </div>
