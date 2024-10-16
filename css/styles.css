@@ -5,7 +5,7 @@
 }
 
 body {
-  background: url(../asset/img/sfondo.jpg);
+  background: url(/asset/img/sfondo.jpg);
   background-blend-mode: multiply;
   background-position: center;
   background-size: cover;
